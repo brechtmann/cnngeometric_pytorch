@@ -6,7 +6,7 @@ from skimage import io
 import pandas as pd
 import numpy as np
 from torch.utils.data import Dataset
-from geotnf.transformation import GeometricTnf
+from cnngeometric.geotnf.transformation import GeometricTnf
 
 class PFDataset(Dataset):
     
