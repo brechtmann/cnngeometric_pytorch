@@ -1,7 +1,7 @@
 import torch
 from torch.autograd import Variable
 import numpy as np
-from geotnf.transformation import TpsGridGen
+from cnngeometric.geotnf.transformation import TpsGridGen
 
 class PointTnf(object):
     """
